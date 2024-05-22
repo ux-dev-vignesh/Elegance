@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navabar-brand {
+  font-size: 28px !important;
+}
+.navbar-brand:focus {
+  color: rgb(255, 255, 255) !important;
+}
+.navbar-brand:hover {
+  color: black !important;
+}
+.navbar-brand:active {
+  color: rgb(0, 0, 0) !important;
+}
+
+.nav-link {
+  font-size: 18px;
+  font-weight: 800 !important;
+}
+
+.nav-link:hover {
+  color: rgb(0, 0, 0) !important;
+}
+.nav-link:active {
+  color: #ffffff !important;
+}
+.nav-link:focus {
+  color: #fff !important;
+}
+
+.shadow-class {
+  box-shadow: 6px 6px 2px rgb(0, 0, 0);
+}
+
+/* section 1 */
+
+.section-1 {
+  background-image: url("../assets/images/baground.jpg");
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay !important;
+  opacity: 80%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+#scroll {
+  text-decoration: none;
+}
+
+#heading1 {
+  font-size: 6em !important;
+  margin-top: 15px 0 !important;
+}
+
+@media only screen and (max-width: 400px) {
+  #heading1 {
+    font-size: 4em !important;
+    margin-top: 15px 0 !important;
+  }
+}
+
+/* section 2 */
+
+.section-2 {
+  background-image: url("../assets/images/baground.jpg");
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay !important;
+  opacity: 80%;
+  overflow-x: hidden;
+}
+
+.card-sec2 {
+  width: 75%;
+  height: 250px;
+}
+
+@media only screen and (min-width: 760px) {
+  .card-sec2 {
+    width: 400px;
+    height: 450px;
+  }
+}
+
+/* section 3 */
+
+.section-3 {
+  background-image: url("../assets/images/baground.jpg");
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay !important;
+  opacity: 80%;
+  overflow-x: hidden;
+}
+
+/* section 4 */
+
+.section-4 {
+  background-image: url("../assets/images/baground.jpg");
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay !important;
+  opacity: 80%;
+  overflow-x: hidden;
+}
+
+.progress-circle {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+
+/* section 5 */
+
+.section-5 {
+  background-image: url("../assets/images/baground.jpg");
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay !important;
+  opacity: 80%;
+  overflow-x: hidden;
+}
+
+@media only screen and (min-width: 300px) {
+  .card-sec5 {
+    width: 250px;
+    height: 300px;
+  }
+}
+
+/* section 6 */
+
+.section-6 {
+  background-image: url("../assets/images/baground.jpg");
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay !important;
+  opacity: 80%;
+  overflow-x: hidden;
+}
+
+#sec6 {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+/* section 7 */
+
+.section-7 {
+  background-image: url("../assets/images/baground.jpg");
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay !important;
+  opacity: 80%;
+  overflow-x: hidden;
+}
